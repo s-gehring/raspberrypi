@@ -15,6 +15,10 @@ In /etc/ssh/ssh_config
 hinzufügen und dann
 ```service sshd restart```
 
+5. Passwordless sudo
+
+```./passwordless_sudo.sh```
+
 5. Update
 
 ```./update.sh```
@@ -22,3 +26,8 @@ hinzufügen und dann
 6. Install docker
 
 ```./install_docker.sh```
+
+7. Reboot
+
+```sudo reboot```
+
